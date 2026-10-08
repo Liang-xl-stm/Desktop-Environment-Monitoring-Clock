@@ -1,0 +1,44 @@
+# Keil and desktop-tool generated directories
+**/OBJ/
+**/Build/
+**/build/
+**/dist/
+**/*_backup_*/
+
+# Local IDE state, breakpoints and editor settings
+**/.vscode/
+*.uvguix.*
+*.uvoptx
+*.uvopt
+*.bak
+
+# Compiler intermediate files
+*.o
+*.obj
+*.axf
+*.map
+*.lst
+*.crf
+*.dep
+*.lnp
+*.log
+
+# Python environments and caches
+**/__pycache__/
+*.py[cod]
+**/.venv/
+**/venv/
+**/.pytest_cache/
+**/.mypy_cache/
+
+# Local secrets and machine-specific configuration
+.env
+.env.*
+!.env.example
+**/app_config_local.h
+**/settings.local.json
+
+# Operating system metadata
+Thumbs.db
+Desktop.ini
+.DS_Store
